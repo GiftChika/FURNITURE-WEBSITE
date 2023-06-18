@@ -248,6 +248,7 @@ body{
     justify-content: center;
     margin-top: 70px;
     gap: 20px;
+    position: relative;
 
 }
 .txt-area{
@@ -353,4 +354,50 @@ form{
 .picture-one img{
     margin-top: 80px;
 }
-
+/* continution of section 4 styling */
+.empty-box1{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 355px;
+    left:420px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.empty-box2{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 355px;
+    left: 820px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.empty-box3{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 355px;
+    right: 430px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.eclip1{
+    position: absolute;
+    top: 370px;
+    left: 440px;
+}
+.eclip2{
+    position: absolute;
+    top: 370px;
+    left: 840px;
+}
+.eclip3{
+    position: absolute;
+    top: 370px;
+    right: 450px;
+    
+}
