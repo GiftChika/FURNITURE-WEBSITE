@@ -401,3 +401,27 @@ form{
     right: 450px;
     
 }
+.number1{
+    color: #0ab007;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    top: 382px;
+    
+}
+.number2{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    top: 382px;
+    left: 858px;
+}
+.number3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    top: 382px;
+    right:470px;
+}
