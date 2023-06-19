@@ -502,8 +502,6 @@ form{
         font-weight:500 ;
         line-height: 35px;
         margin-top: 15px;
-        
-    
     }
     .btn{
         font-size: 16px;
@@ -523,5 +521,13 @@ form{
         gap: 40px;
     }
     
-
+    .after-header{
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color:  #F2F5FF;
+        padding: 50px 5px;      
+    }
 }
