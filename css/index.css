@@ -10,6 +10,7 @@ body{
     padding-right: 0.5rem;
     padding-left: 0.5rem ;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+    max-width: 2010px;
 
 }
 
@@ -348,7 +349,7 @@ form{
     font-weight: 700;
     color: #FFFFFF;
     position: absolute;
-    left: 00px;
+    left: 700px;
     top: 100px;
 }
 .picture-one img{
@@ -435,18 +436,37 @@ form{
   }
 } */
 
-@media (max-width:1801px){
+@media (max-width:1809px){
     .hanging-txt{left: 600px;}
     .empty-box1{left: 350px;}
     .empty-box2{left: 770px;}
+    .empty-box3{right: 370px;}
     .eclip1{left: 370px;}
     .eclip2{left: 790px;}
+    .eclip3{right: 390px;}
     .number1{left: 390px;  }
     .number2{left: 810px; }
+    .number3{ right:410px;}
     .section-1{gap: 15px;}
     .box-text{top: 150px;}
 }
-@media (max-width) {
+@media (max-width:1789px) {
+    .section-1{flex-wrap: nowrap;}
+}
+@media (max-width:1755px) {
+    .eclipes{right: 140px;}
+    .empty-box1{left: 330px;}
+    .empty-box2{left: 740px;}
+    .empty-box3{right: 340px;}
+    .eclip1{left: 350px;}
+    .eclip2{left: 760px;}
+    .eclip3{right: 360px;}
+    .number1{left: 370px;  }
+    .number2{left: 780px; }
+    .number3{ right:380px;}
+    .section-1{gap: 15px;}
+    .box-text{top: 130px; right: 180px;}
+}
+@media (max-width:;) {
     
 }
-
