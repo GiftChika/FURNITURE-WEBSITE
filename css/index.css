@@ -460,8 +460,8 @@ form{
     .section-1{gap: 15px;}
     .box-text{top: 130px; right: 180px;}
 }
-@media (max-width:1701px) {
-    .eclipes{right: 140px;}
+@media (max-width:1024px) {
+    /* .eclipes{right: 140px;}
     .empty-box1{left: 310px;}
     .empty-box2{left: 720px;}
     .empty-box3{right: 320px;}
@@ -474,5 +474,54 @@ form{
     .section-1{gap: 15px;}
     .box-text{top: 130px; right: 180px;}
     .hangin-txt{left: 580px;}
-    .eclipes{right: 100px;}
+    .eclipes{right: 100px;} */
+    .box-text{
+    background-color:  #DFE9F4;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    padding: 18px;
+    width: 480px;
+    height: 320px;
+    border-radius: 10px; }
+    .discover{
+        font-size:30px ;
+        font-weight: 700;
+        color: #054C73;
+        margin-top: 10px;
+    
+    }
+    .new{
+        font-size:20px ;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+    .box-text p{
+        font-size:15px ;
+        font-weight:500 ;
+        line-height: 35px;
+        margin-top: 15px;
+        
+    
+    }
+    .btn{
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 15px ;
+        padding-bottom: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        margin-top: 10px;
+    }
+    .top-bar{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .navside ul{
+        gap: 40px;
+    }
+    
+
 }
