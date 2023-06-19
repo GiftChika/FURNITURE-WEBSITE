@@ -204,7 +204,7 @@ body{
 .eclipes{
     position: absolute;
     top: 150px;
-    right: 180px;
+    right: 200px;
     z-index: -1;
 }
 .lady img{
@@ -429,13 +429,6 @@ form{
 
 
 /* media queries */
-
-/* @media (max-width:2010px){
-  body{
-    width: 90%;
-  }
-} */
-
 @media (max-width:1809px){
     .hanging-txt{left: 600px;}
     .empty-box1{left: 350px;}
