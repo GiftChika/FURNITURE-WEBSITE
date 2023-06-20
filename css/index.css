@@ -461,8 +461,8 @@ form{
     .box-text{top: 130px; right: 180px;}
 }
 @media (max-width:1024px) {
-    /* .eclipes{right: 140px;}
-    .empty-box1{left: 310px;}
+    .eclipes{right: 140px;}
+    .empty-box1{left: 10px;}
     .empty-box2{left: 720px;}
     .empty-box3{right: 320px;}
     .eclip1{left: 330px;}
@@ -474,7 +474,7 @@ form{
     .section-1{gap: 15px;}
     .box-text{top: 130px; right: 180px;}
     .hangin-txt{left: 580px;}
-    .eclipes{right: 100px;} */
+    .eclipes{right: 100px;}
     .box-text{
     background-color:  #DFE9F4;
     display: inline-block;
