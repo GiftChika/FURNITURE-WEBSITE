@@ -429,64 +429,35 @@ form{
 
 
 /* media queries */
-@media (max-width:1809px){
-    .hanging-txt{left: 600px;}
-    .empty-box1{left: 350px;}
-    .empty-box2{left: 770px;}
-    .empty-box3{right: 370px;}
-    .eclip1{left: 370px;}
-    .eclip2{left: 790px;}
-    .eclip3{right: 390px;}
-    .number1{left: 390px;  }
-    .number2{left: 810px; }
-    .number3{ right:410px;}
-    .section-1{gap: 15px;}
-    .box-text{top: 150px;}
-}
-@media (max-width:1789px) {
-    .section-1{flex-wrap: nowrap;}
-}
-@media (max-width:1755px) {
-    .eclipes{right: 140px;}
-    .empty-box1{left: 330px;}
-    .empty-box2{left: 740px;}
-    .empty-box3{right: 340px;}
-    .eclip1{left: 350px;}
-    .eclip2{left: 760px;}
-    .eclip3{right: 360px;}
-    .number1{left: 370px;  }
-    .number2{left: 780px; }
-    .number3{ right:380px;}
-    .section-1{gap: 15px;}
-    .box-text{top: 130px; right: 180px;}
-}
-@media (max-width:1024px) {
-    .eclipes{right: 140px;}
-    .empty-box1{left: 10px;}
-    .empty-box2{left: 720px;}
-    .empty-box3{right: 320px;}
-    .eclip1{left: 330px;}
-    .eclip2{left: 740px;}
-    .eclip3{right: 340px;}
-    .number1{left: 350px;  }
-    .number2{left: 760px; }
-    .number3{ right:360px;}
-    .section-1{gap: 15px;}
-    .box-text{top: 130px; right: 180px;}
-    .hangin-txt{left: 580px;}
-    .eclipes{right: 100px;}
+@media (max-width:500px) {
+    .top-bar{
+        display: flex;
+        flex-direction: column;
+        margin:50px 50px;
+        gap: 30px;
+    }
+    .navside ul{
+        gap: 50px;
+    
+    }
+    .logo{
+        width: auto;
+    }
     .box-text{
-    background-color:  #DFE9F4;
-    display: inline-block;
-    position: absolute;
-    top: 70px;
-    right: 10px;
-    padding: 18px;
-    width: 480px;
-    height: 320px;
-    border-radius: 10px; }
+        background-color:  #DFE9F4;
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        left: 19px;
+        padding: 30px;
+        width: 400px;
+        height: 460px;
+        border-radius: 10px;
+    
+        
+    }
     .discover{
-        font-size:30px ;
+        font-size:40px ;
         font-weight: 700;
         color: #054C73;
         margin-top: 10px;
@@ -495,39 +466,77 @@ form{
     .new{
         font-size:20px ;
         font-weight: 600;
-        margin-top: 7px;
-    }
-    .box-text p{
-        font-size:15px ;
-        font-weight:500 ;
-        line-height: 35px;
-        margin-top: 15px;
-    }
-    .btn{
-        font-size: 16px;
-        font-weight: 700;
-        padding-top: 15px ;
-        padding-bottom: 18px;
-        padding-left: 30px;
-        padding-right: 30px;
-        border-radius: 50px;
         margin-top: 10px;
     }
-    .top-bar{
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-    .navside ul{
-        gap: 40px;
-    }
+    .box-text p{
+        font-size:18px ;
+        font-weight:500 ;
+        color: #333333;
+        line-height: 40px;
+        margin-top: 20px;
+        
     
+    }
+    .btn{
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 22px ;
+        padding-bottom: 22px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color:#054C73;
+        border: #054C73;
+        border-radius: 50px;
+        color: white;
+        margin-top: 20px;
+    }
     .after-header{
         display: flex ;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 0px;
-        margin-right: 0px;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: px;
+        margin-right: px;
         background-color:  #F2F5FF;
-        padding: 50px 5px;      
+        padding: 30px 30px;  
     }
+    .section-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 150px;
+        padding-right: 150px; */
+        gap: 40px;
+        margin-top: 100px;
+        align-items: center;
+    }
+    .lady, .eclipes{
+        display: none;
+    }
+    .section-2{
+        display: none;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 70px;
+        background-color: #ffffff;
+        
+    }
+    .section-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 70px;
+        gap: 20px;
+        position: relative;
+    }
+    .empty-box1,.empty-box2,.empty-box3,.eclip1,.eclip2,.eclip3,.number1,.number2,.number3{
+        display: none;
+    }
+    
 }
